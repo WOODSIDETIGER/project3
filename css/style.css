@@ -98,16 +98,23 @@ h1{
   margin: 16px auto;
   border: none;
 }
+#map {
+  height: 500px; 
+  width: 90%;
+  margin: 0 auto;
+  border: 2px solid #333;
+  display: inline-block;
+}
 @media screen and (min-width: 600px) {
 
-	body {
-		background-color:rgb(0, 86, 210);
+ body {
+	 background-color:rgb(0, 86, 210);
   }
-	h1{
-	color:gray;
-  font-size:80px;
+ h1{
+	 color:gray;
+   font-size:80px;
 }
-	.greeting {
+ .greeting {
 		background-color:rgb(113, 128, 120);
 		font-size:40px;
 }
@@ -131,4 +138,4 @@ h1{
 	.video-intro{
 		font-size:50px;
 		}
-		
+	
