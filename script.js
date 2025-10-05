@@ -8,16 +8,16 @@ window.initMap = function() {
     position: citiFieldLocation,
     map: map,
     icon: {
-      url: 'images/tearofjoy.png',
+      url: 'media/image/tearofjoy.png',
       scaledSize: new google.maps.Size(40, 40)
     },
     animation: google.maps.Animation.BOUNCE
   });
   const infowindow = new google.maps.InfoWindow({
-    content: "<h1>best NYC BASEBALL TEAM HAHA</h1>"
+    content: "<h3>best NYC BASEBALL TEAM HAHA</h3>"
   });
   marker.addListener('click', () => {
-    if (infowouter.getMap()) {
+    if (infowindow.getMap()) {
       infowindow.close();
     } else {
       infowindow.open(map, marker);
